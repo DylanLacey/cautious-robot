@@ -1,0 +1,13 @@
+language: ruby
+rvm:
+  - 2.2
+  - jruby
+  - rbx-2
+matrix:
+  include:
+    - rvm: 2.2
+      addons:
+        sauce_connect:
+          username: dylanatsauce
+        jwt:
+          secure: "J8jJsf2RVPSiRBdhhOLSfYFek/v0Sz/qA4Ac0UPyxzF2xn5F93WCnC9VzLYI9YYWnbqRsn04jCjK28LksQXrsmtqDjr2XwdrMi/2h8ItvxYg27NT6KaSw2nhepn11JtV5btPIK9GDWOo/i+E4PQZZndB9KKMlbPulSG9+xQ24ytfKWz8cMNk3g+QxDxznDrI5nM6uCMBv/nEsL+E90MCRtVKOp5RSo4bAJRVMY5Y2dErAP5vkYv3P6Wn2GrzGZ3s/Ac/83QllKxc8Kmshxj1pn9o51Ie5P0G+bzfPkoqV6YG/3KTOkUJEBNkm1L5IjUftw+Yaw6knxSqsLKHSOWos7/+7KJlIWnHewYmP2RS10cgKPygcOPjtReQQhVssEbZcAlJ8qWzGTicUCu4Dmk3aB9zDi4VNT7D4XjdKl9x6rI1g1yX7ji/dI5vS0EL/xsRhANQCamCd341pFFheGvPQbxX0TrmbqYblX5oJ9/Hw2bD/ts9PiNUYhgCpZpcAkYEu6xmbeCtxIYjgQNi7dccN5Xg53i8nrciXgUW+v2Kd/xF+5NTOAxZssZcp0yqqyhVSRHyfTfvT1YJsj2Fqcp4WoWLY4MO4GTyzikvLY+woay3/Q4knz/5yy2PXM7EJ4max8fom/2PLGDrzATQb2jwdG4/b93eq7+5Q0IqaAPo8PI="
